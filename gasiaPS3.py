@@ -9,7 +9,7 @@ try:
     
     print("Manufacturer:",h.get_manufacturer_string())
     print("Product:", h.get_product_string())
-    print "Serial No: %s" % h.get_serial_number_string()
+    print("Serial No:",h.get_serial_number_string())
 
     print("Doing operational mode ...")
     # lets write operational mode, have to send 0xf5 report
